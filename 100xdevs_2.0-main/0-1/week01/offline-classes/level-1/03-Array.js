@@ -5,7 +5,7 @@
 
 // Run each function to see the output, play and learn by doing.
 
-// push()
+// push() - Adds one or more elements to the end of an array 
 function pushExample(arr, element) {
   console.log("Original Array:", arr);
 
@@ -14,7 +14,7 @@ function pushExample(arr, element) {
 }
 pushExample([1, 2, 3], 4);
 
-// pop()
+// pop() - Removes the last element from an array and returns that element
 function popExample(arr) {
   console.log("Original Array:", arr);
 
@@ -23,7 +23,7 @@ function popExample(arr) {
 }
 popExample([1, 2, 3]);
 
-// shift()
+// shift() - Removes the first element from an array  
 function shiftExample(arr) {
   console.log("Original Array:", arr);
 
@@ -32,7 +32,7 @@ function shiftExample(arr) {
 }
 shiftExample([1, 2, 3]);
 
-// unshift()
+// unshift() - Adds one or more elements to the beginning of an array and returns the new length
 function unshiftExample(arr, element) {
   console.log("Original Array:", arr);
 
@@ -41,7 +41,7 @@ function unshiftExample(arr, element) {
 }
 unshiftExample([1, 2, 3], 0);
 
-// concat()
+// concat() - Merges two or more arrays and returns a new array without modifying existing arrays
 function concatExample(arr1, arr2) {
   console.log("Original Arrays:", arr1, arr2);
 
@@ -50,7 +50,7 @@ function concatExample(arr1, arr2) {
 }
 concatExample([1, 2, 3], [4, 5, 6]);
 
-// forEach()
+// forEach() - Executes a provided function once for each array element
 function forEachExample(arr) {
   console.log("Original Array:", arr);
 
@@ -60,7 +60,7 @@ function forEachExample(arr) {
 }
 forEachExample([1, 2, 3]);
 
-// map()
+// map() - Creates a new array with the results of calling a function for every array element
 function mapExample(arr) {
   console.log("Original Array:", arr);
 
@@ -71,7 +71,7 @@ function mapExample(arr) {
 }
 mapExample([1, 2, 3]);
 
-// filter()
+// filter() - Creates a new array with all elements that pass a test implemented by a function
 function filterExample(arr) {
   console.log("Original Array:", arr);
 
@@ -82,7 +82,7 @@ function filterExample(arr) {
 }
 filterExample([1, 2, 3, 4, 5]);
 
-// find()
+// find() - Returns the first element in an array that satisfies a provided testing function
 function findExample(arr) {
   console.log("Original Array:", arr);
 
@@ -93,7 +93,7 @@ function findExample(arr) {
 }
 findExample([1, 2, 3, 4, 5]);
 
-// sort()
+// sort() - Sorts the elements of an array in place and returns the sorted array
 function sortExample(arr) {
   console.log("Original Array:", arr);
 

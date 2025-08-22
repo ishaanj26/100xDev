@@ -6,7 +6,20 @@
   "directories": {
     "test": "tests"
   },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
 }
